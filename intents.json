@@ -1,31 +1,31 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey"],
          "responses": ["Hello! How can I assist you today?", "Good to see you! How can I help you?", "Hi there, how can I help?"],
          "context_set": ""
         },
         {"tag": "password-protect",
-         "patterns": ["password", "defend", "safety", "How can I protect my device?", "How to secure device"],
-         "responses": ["You can password-protect your mobile device with a complex password, PIN, or security pattern."],
+         "patterns": ["password protect", "password protect device", "How can I password protect my device?", "How to secure device", "Different ways to set up a password", "Is my password too short?", "Is my password weak?", "How to improve password"],
+         "responses": ["You can password-protect your mobile device with a complex password, PIN, or security pattern. When using a complex password please make sure its 12-14 characters long and includes a combination of numbers, ltteres, and symbols."],
          "context_set": ""
         },
         {"tag": "security",
-         "patterns": ["How can I secure my device?", "backup", "wipe", "lock"],
+         "patterns": ["How can I secure my device?", "backup my device", "wipe my device", "lock device", "Ways to secure device(s)?", "Ways to secure your device?", "Is my device secure?"],
          "responses": ["Here are some ways you can secure your device: Set your phone to automatically lock after a few minutes of inactivity, enable remote wipe, and set your device to erase itself after repeated failed login attempts (for example, erase device after 10 failed login attempts)."],
          "context_set": ""
         },
         {"tag": "improve-security",
-         "patterns": ["How can I improve security on my device?", "security options", "improve", "reinforce"],
-         "responses": ["Here are some security options: enable location applications, disable lcok screen features and notifications, display emergency contact info on your lock screen, regulary check and install updates, and use antivirus software"],
+         "patterns": ["How can I improve security on my device?", "security options", "improve security", "reinforce my device", "How to improve security?", "Is a password enough?", "Are antiviruses useful?"],
+         "responses": ["Here are some security options: enable location applications, disable lock screen features and notifications, display emergency contact info on your lock screen, regulary check and install updates, and use antivirus software"],
          "context_set": ""
         },
         {"tag": "avoid-dangers",
-         "patterns": ["What are some security threats to avoid?", "dangers to avoid", "possible threats to security", "avoid"],
+         "patterns": ["What are some security threats to avoid?", "dangers to avoid", "possible threats to security", "How are devices compromised?"],
          "responses": ["Some security threats to avoid are: rooting/jailbreaking your device, installing apps from unofficial sources, and installing software from unknown sources."],
          "context_set": ""
         },
         {"tag": "app-precautions",
-         "patterns": ["What are some app precautions?", "danger preventions for apps", "app security", "app precautions"],
+         "patterns": ["What are some app precautions?", "danger preventions for apps", "app security", "app precautions", "What should I be aware of before installing an app?", "How to tell if an app is legit", "Is this app legit?", "Should I download anything that isn’t verified?"],
          "responses": ["Some app precautions you should do are: scrutinize and scan apps before installation, review the policies before installing a software, ensure the app isn't asking for permissions that are unnecessary, disable or uninstall apps you don't actively use, and sync and back up your data regularly."],
          "context_set": ""
         }

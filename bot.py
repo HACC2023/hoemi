@@ -1,4 +1,6 @@
 '''
+Low-code
+
 Notes for user:
 Please install the following packages (3.8 - 3.11)...
 pip install numpy
@@ -117,10 +119,10 @@ def bag_of_words(s, words):
 	return numpy.array(bag)
 
 def chat():
-	print("Welcome to the UH ITS desk. I'm your virtual assisstant here to help you with any IT related problems. What can I do for you today?")
+	print("\n\nWelcome to the UH ITS desk. I'm your virtual assistant here to help you with any IT related problems. What can I do for you today?")
 	while True:
-		inp = input("You: ")
-		if inp.lower() == "quit":
+		inp = input("\nYou: ")
+		if inp.lower() == "bye":
 			break
 
 		# Model Prediction might need some work -Brandon
@@ -133,7 +135,7 @@ def chat():
 			if tg['tag'] ==  tag:
 				responses = tg['responses']
 
-		print(random.choices(responses))
+		print(f"\nbot: {random.choices(responses)}")
 		
 
 chat()
