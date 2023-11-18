@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey"],
+         "responses": ["Hello! How can I assist you today?", "Good to see you! How can I help you?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "password-protect",
+         "patterns": ["password protect", "password protect device", "How can I password protect my device?", "How to secure device", "Different ways to set up a password", "Is my password too short?", "Is my password weak?", "How to improve password", "What is a primary way to secure my device"],
+         "responses": ["You can password-protect your device with a complex password, PIN, or security pattern. When using a complex password please make sure its 12-14 characters long and includes a combination of numbers, ltteres, and symbols."],
+         "article": ["https://www.hawaii.edu/infosec/resources-tips/mobile-device-security/"],
+         "context_set": ""
+        },
+        {"tag": "mobile-security",
+         "patterns": ["Can you help me secure my mobile device?", "How can I secure my mobile device?", "backup my mobile device", "wipe my smartphone device", "lock smartphone", "Ways to secure mobile device(s)?", "Ways to secure your mobile device?", "Is my mobile device secure?"],
+         "responses": ["Here are some ways you can secure your mobile device: Set your phone to automatically lock after a few minutes of inactivity, enable remote wipe, and set your device to erase itself after repeated failed login attempts (for example, erase smartphone data after 10 failed login attempts)."],
+         "article": ["https://www.hawaii.edu/infosec/resources-tips/mobile-device-security/"],
+         "context_set": ""
+        },
+        {"tag": "improve-security",
+         "patterns": ["Can you help me secure my device?", "How can I improve security on my device?", "security options", "improve security", "reinforce my device", "How to improve security?", "Is a password enough?", "Are antiviruses useful?", "How to secure device aside from passwords?", "security device options", "What are some security options?"],
+         "responses": ["Here are some security options: enable location applications, disable lock screen features and notifications, display emergency contact info on your lock screen, regulary check and install updates, and use antivirus software"],
+         "article": ["https://www.hawaii.edu/infosec/resources-tips/mobile-device-security/"],
+         "context_set": ""
+        },
+        {"tag": "avoid-dangers",
+         "patterns": ["What are some security threats to avoid?", "dangers to avoid", "possible threats to security", "How are devices compromised?", "What are some security threats?"],
+         "responses": ["Some security threats to avoid are: rooting/jailbreaking your device, installing apps from unofficial sources, clicking on random links or pop-ups, and installing software from unknown sources."],
+         "article": ["https://hawaii.edu/askus/1419"],
+         "context_set": ""
+        },
+        {"tag": "app-precautions",
+         "patterns": ["What are some app precautions?", "danger preventions for apps", "app security", "app precautions", "What should I be aware of before installing an app?", "How to tell if an app is legit", "Is this app legit?", "Should I download anything that isn’t verified?"],
+         "responses": ["Some app precautions you should do are: scrutinize and scan apps before installation, review the policies before installing a software, ensure the app isn't asking for permissions that are unnecessary, disable or uninstall apps you don't actively use, and sync and back up your data regularly."],
+         "article": ["https://www.hawaii.edu/infosec/resources-tips/mobile-device-security/"],
+         "context_set": ""
+        },
+        {"tag": "defend-data",
+         "patterns": ["How can I defend my data?", "How can I protect my data", "How can I secure my data", "How can I defend my mobile data?", "data security", "wiping data", "how can I safeguard my data?", "How do I prevent my data from being leaked", "Should I click on random links?", "Data loss prevention", "How is data accessed?"],
+         "responses": ["You can safeguard your device's data by wiping data before selling or discarding it, reporting lost or stolen devices, being cautious with links received via text or email, avoiding phishing attempts by not opening unsolicited files or links, limiting personal data storage, encrypting regulated data, and disabling auto-login and auto-fill features."],
+         "article": ["https://www.hawaii.edu/infosec/phishing/"],
+         "context_set": ""
+        }
+   ]
+}
